@@ -207,6 +207,3 @@ Status: The game is over. The computer won!
 -------------------------------------------------------------------------------
 
 Python 3.10.4
-numpy 1.22.4
-pandas 1.4.2
-scikit-learn 1.1.1
