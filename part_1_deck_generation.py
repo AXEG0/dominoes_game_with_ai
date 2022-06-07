@@ -17,8 +17,6 @@ player_pieces = dominoes[int(coefficient * 1.5):]
 snake = max([[x, y] for x, y in computer_pieces + player_pieces if x == y])
 # remove snake from computer's or player's pieces
 computer_pieces.remove(snake) if snake in computer_pieces else player_pieces.remove(snake)
-
-
 # show stock, player's and computer's pieces
 print("Stock pieces:", stock_pieces)
 print("Computer pieces:", computer_pieces)
